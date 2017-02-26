@@ -11,6 +11,5 @@ public class TestMS {
 		
 		jedis_M.set("k1", "v11");
 		System.out.println(jedis_S.get("k1"));
-		
 	}
 }
